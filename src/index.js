@@ -4,6 +4,7 @@ import React from 'react'
 
 import Primeiro from './components/basicos/Primeiro'
 import ComParametro from './components/basicos/ComParametro'
+import Fragmento from './components/basicos/Fragmento'
 
 
 ReactDOM.render(
@@ -13,6 +14,7 @@ ReactDOM.render(
         titulo='Situação do Aluno' 
         aluno="João" 
         nota={9.3} />
+        <Fragmento />
     </div>,
     document.getElementById('root')
  )
