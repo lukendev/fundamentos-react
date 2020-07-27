@@ -1,0 +1,2 @@
+[0727/184543.549:ERROR:filesystem_win.cc(148)] DeleteFile C:\Users\lukelonge\AppData\Local\Google\Chrome\User Data\Crashpad\reports\80419345-be8b-491d-a0e6-fe5b22227c9e.dmp: O arquivo já está sendo usado por outro processo. (0x20)
+[0727/184545.467:ERROR:registration_protocol_win.cc(131)] TransactNamedPipe: O pipe foi finalizado. (0x6D)
