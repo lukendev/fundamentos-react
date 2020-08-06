@@ -7,7 +7,7 @@ export default props => {
     function getLinhas() {
         return produtos.map((produto, i) => {
             return (
-                <tr key={produto.id} className={i % 2 == 0 ? 'Par' : 'Impar'}>
+                <tr key={produto.id} className={i % 2 === 0 ? 'Par' : 'Impar'}>
                     <td>{produto.id}</td>
                     <td>{produto.nome}</td>
                     <td>R$ {produto.preco.toFixed(2).replace('.', ',')}</td>
@@ -15,22 +15,6 @@ export default props => {
             )
         })
     }
-
-    const tabelaProdutos = produtos.map((produto) => {
-        return (
-            <tr>
-                <td key={produto.id}>
-                    {produto.id}
-                </td>
-                <td key={produto.id}>
-                    {produto.nome}
-                </td>
-                <td key={produto.id}>
-                    {produto.preco}
-                </td>
-            </tr>
-        )
-    })
 
     return (
         <div className="TabelaProdutos">
