@@ -25,22 +25,22 @@ export default _ =>
 
         <div className="Cards">
 
-        <Card titulo="#10 - Comunicação Indireta" color="#8BAD39">
+            <Card titulo="#10 - Comunicação Indireta" color="#8BAD39">
                 <IndiretaPai></IndiretaPai>
             </Card>
 
-        <Card titulo="#09 - Comunicação Direta" color="#59323C">
+            <Card titulo="#09 - Comunicação Direta" color="#59323C">
                 <DiretaPai></DiretaPai>
             </Card>
 
-        <Card titulo="#08 - Renderização Condicional" color="#982395">
+            <Card titulo="#08 - Renderização Condicional" color="#982395">
                 <ParOuImpar numero={20}></ParOuImpar>
                 <UsuarioInfo usuario={{ nome: 'Fernando' }} />
                 {/* <UsuarioInfo UsuarioInfo={{ email: 'fer@nando.com' }} /> */}
                 {/* <UsuarioInfo UsuarioInfo={{}} /> */}
             </Card>
 
-        <Card titulo="#07 - Desafio Repetição" color="#3A9AD9">
+            <Card titulo="#07 - Desafio Repetição" color="#3A9AD9">
                 <TabelaProdutos></TabelaProdutos>
             </Card>
 
