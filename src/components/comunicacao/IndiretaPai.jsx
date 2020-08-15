@@ -2,7 +2,6 @@ import React, { useState } from 'react'
 import IndiretaFilho from './IndiretaFilho'
 
 export default props => {
-    const [a, b] = [1, 2]
     const [nome, setNome] = useState('?')
     const [idade, setIdade] = useState(0)
     const [nerd, setNerd] = useState(false)
